@@ -25,3 +25,7 @@ class Blog(BlogBase):
 
     class Config:
         orm_mode = True
+
+class ImageUploadResponse(BaseModel):
+    filename: str
+    # url: str  # Optional: full URL path if needed

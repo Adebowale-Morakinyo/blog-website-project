@@ -13,6 +13,8 @@ app = FastAPI()
 origins = [
     "http://127.0.0.1:5500",  # Your frontend's origin (for development)
     "http://localhost:5500",  # Localhost as well
+    "http://127.0.0.1:5500/",  # Your frontend's origin (for development)
+    "http://localhost:5500/",
     # You can add production origins here once deployed
 ]
 
@@ -20,7 +22,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,   # Allow requests from these origins
     allow_credentials=True,
-    allow_methods=["*"],     # Allow all HTTP methods (GET, POST, PUT, DELETE, etc.)
+    allow_methods=[ "*"],     # Allow all HTTP methods (GET, POST, PUT, DELETE, etc.)
     allow_headers=["*"],     # Allow all headers
 )
 
