@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     postItem.innerHTML = `
       <article
         class="grid grid-rows-[300px_auto] md:grid-rows-[300px_220px] min-h-full group">
-        <a class="relative overflow-hidden" href="./post.html?id=${blog.id}">
+        <a class="relative overflow-hidden" href="./src/post.html?id=${blog.id}">
           <img
             src="../public/images/${blog.image_url}"
             class="h-full min-w-full object-cover hover:scale-[101%] transition-all duration-200 rounded-[2px]"
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             <div class="flex flex-col gap-2">
               <a
                 class="text-2xl font-semibold -tracking-wider"
-                href="./post.html?id=${blog.id}">
+                href="./src/post.html?id=${blog.id}">
                 ${blog.title}
               </a>
             </div>
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", async () => {
           </div>
           <footer class="flex justify-between items-center">
             <a
-              href="./post.html?id=${blog.id}"
+              href="./src/post.html?id=${blog.id}"
               class="flex justify-center items-center dark:text-white rounded-full hover:translate-x-1 transition-transform duration-150 ease-in-out font-semibold gap-1 group"
               aria-label="go to ${blog.title}">
               Read Post

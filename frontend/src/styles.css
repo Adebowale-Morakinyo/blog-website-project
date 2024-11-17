@@ -20,6 +20,18 @@ body {
     padding: 20px 0;
   }
   
+  /* Add Icon Styling */
+  .add-icon {
+    transition: transform 0.3s ease, color 0.3s ease;
+    display: inline-block;
+    color: inherit;
+  }
+
+  .add-icon:hover {
+    transform: scale(1.2); /* Grows the icon slightly */
+    color: #2563eb; /* Changes the color to a blue shade */
+  }
+
   /* Title Section */
   .title-section {
     text-align: center;
