@@ -159,15 +159,15 @@ Welcome to **Group E Blog Website**, a fully functional blog platform where user
 
 ### **Homepage**:
 Displays a list of all blog posts.
-![Homepage Screenshot](https://github.com/Adebowale-Morakinyo/blog-website-project/blob/main/frontend/public/images/home_page.png)
+![Homepage Screenshot](https://github.com/Adebowale-Morakinyo/blog-website-project/blob/main/frontend/public/images/home_page.jpeg)
 
 ### **Post View**:
 Shows the content of a selected blog post.
-![Post View Screenshot](https://github.com/Adebowale-Morakinyo/blog-website-project/blob/main/frontend/public/images/individual_post.png)
+![Post View Screenshot](https://github.com/Adebowale-Morakinyo/blog-website-project/blob/main/frontend/public/images/individual_post.jpeg)
 
 ### **Post Editor**:
 Allows users to create a new blog post.
-![Post Editor Screenshot](https://github.com/Adebowale-Morakinyo/blog-website-project/blob/main/frontend/public/images/post_editor.png)
+![Post Editor Screenshot](https://github.com/Adebowale-Morakinyo/blog-website-project/blob/main/frontend/public/images/post_editor.jpeg)
 
 ---
 
